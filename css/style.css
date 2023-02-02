@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+* {
+    margin: auto;
+    padding: 0;
+    text-decoration: 0;
+    list-style: 0;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins';
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    */
+
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/img/AdobeStock_375065471-1-scaled.jpeg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar {
+    /* position: fixed; */
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+
+
+}
+
+.navbar a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+    transform: translate(-2%, 2%);
+}
+
+.navbar .nav-links ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar .nav-links ul li {
+    margin: 0 15px;
+}
+
+@media screen and (max-width:1024px) {
+    .nav-links {
+        display: none;
+    }
+}
+
+h1 {
+    font-size: 51px;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+.zone-presentation {
+    color: #002e6c;
+    background-color: white;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+    font-family: 'Roboto-Regular';
+}
+
+.formation-container {
+    font-family: Open Sans;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #eb4d69;
+}
+
+
+.zone-formation {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.zone-formation h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.levels-container {
+    overflow-x: hidden;
+    border-radius: 1em 1em 6em 6em;
+}
+
+.levels-container1 {
+    overflow-x: hidden;
+    border-radius: 1em 1em 6em 6em;
+}
+
+.levels-container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1.5rem;
+    background-color: #74b1db;
+}
+
+.levels-container1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1.5rem;
+    background-color: #74b1db;
+}
+
+.levels-container p:nth-child(-n + 2) {
+    border-bottom: 3px solid #ffffff;
+}
+
+.levels-container p:last-child {
+    background-color: #156ea9;
+}
+
+
+.levels-container1 p:nth-child(-n + 3) {
+    border-bottom: 3px solid #ffffff;
+}
+
+.levels-container1 p:last-child {
+    background-color: #156ea9;
+}
+
+.levels-container1 p:nth-child(4) {
+    background-color: #156ea9;
+}
+
+.levels-container1 p:nth-child(4) {
+    border-bottom: 3px solid #74b1db;
+}
+
+.levels-container1 p:nth-child(-n + 1) {
+    border-bottom: 3px solid #ffffff;
+}
+
+.levels-container a {
+    font-size: 0.8125rem;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.levels-container1 a {
+    font-size: 0.8125rem;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid__item {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* grand écran */
+@media screen and (min-width: 750px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .grid__item {
+        max-width: 50%;
+    }
+}
+
+.pedagogie p {
+    color: #002e6c;
+    font-size: 18px;
+}
+
+.pedagogie {
+    background-color: white;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+    font-family: 'Roboto-Regular';
+}

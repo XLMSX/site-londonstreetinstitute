@@ -14,16 +14,15 @@ html {
 
 body {
     font-family: 'Poppins';
-    /* background-repeat: no-repeat;
-    background-attachment: fixed;
-    */
+
+
 
 }
 
 header {
     height: 100vh;
     width: 100vw;
-    background-image: url('./img/AdobeStock_375065471-1-scaled.jpeg');
+    background-image: url(/img/London.jpeg);
     background-size: cover;
     background-position: center center;
 }

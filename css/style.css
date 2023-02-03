@@ -93,7 +93,7 @@ h2 {
     font-family: 'Roboto-Regular';
 }
 
-.formation-container {
+.zone-formation-container {
     font-family: Open Sans;
     font-weight: 700;
     color: #ffffff;
@@ -114,17 +114,22 @@ h2 {
     text-transform: uppercase;
 }
 
-.levels-container {
+.formation-container {
     overflow-x: hidden;
     border-radius: 1em 1em 6em 6em;
 }
 
-.levels-container1 {
+.formation-container1 {
     overflow-x: hidden;
     border-radius: 1em 1em 6em 6em;
 }
 
-.levels-container p {
+.formation-container2 {
+    overflow-x: hidden;
+    border-radius: 1em 1em 6em 6em;
+}
+
+.formation-container p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,7 +138,7 @@ h2 {
     background-color: #74b1db;
 }
 
-.levels-container1 p {
+.formation-container1 p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,42 +147,61 @@ h2 {
     background-color: #74b1db;
 }
 
-.levels-container p:nth-child(-n + 2) {
+.formation-container2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1.5rem;
+    background-color: #74b1db;
+}
+
+.formation-container p:nth-child(-n + 2) {
     border-bottom: 3px solid #ffffff;
 }
 
-.levels-container p:last-child {
+.formation-container p:last-child {
     background-color: #156ea9;
 }
 
 
-.levels-container1 p:nth-child(-n + 3) {
+.formation-container1 p:nth-child(-n + 3) {
     border-bottom: 3px solid #ffffff;
 }
 
-.levels-container1 p:last-child {
+.formation-container1 p:last-child {
     background-color: #156ea9;
 }
 
-.levels-container1 p:nth-child(4) {
+.formation-container1 p:nth-child(4) {
     background-color: #156ea9;
 }
 
-.levels-container1 p:nth-child(4) {
+.formation-container1 p:nth-child(4) {
     border-bottom: 3px solid #74b1db;
 }
 
-.levels-container1 p:nth-child(-n + 1) {
+.formation-container1 p:nth-child(-n + 1) {
     border-bottom: 3px solid #ffffff;
 }
 
-.levels-container a {
+.formation-container2 p:last-child {
+    background-color: #156ea9;
+}
+
+.formation-container a {
     font-size: 0.8125rem;
     color: inherit;
     text-decoration: inherit;
 }
 
-.levels-container1 a {
+.formation-container1 a {
+    font-size: 0.8125rem;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.formation-container2 a {
     font-size: 0.8125rem;
     color: inherit;
     text-decoration: inherit;

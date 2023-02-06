@@ -19,6 +19,11 @@ body {
 
 }
 
+h1 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+}
+
 header {
     height: 100vh;
     width: 100vw;
@@ -92,6 +97,8 @@ h2 {
     text-align: center;
     font-family: 'Roboto-Regular';
 }
+
+/* FORMATIONS */
 
 .zone-formation-container {
     font-family: Open Sans;
@@ -207,9 +214,20 @@ h2 {
     text-decoration: inherit;
 }
 
+.zone-formation-haut {
+    display: flex;
+}
+
+.zone-formation-milieu {
+    display: flex;
+}
+
+.zone-formation-bas {
+    display: flex;
+}
 
 
-
+/*  PEDAGOGIE*/
 
 .grid {
     display: flex;
@@ -253,4 +271,55 @@ h2 {
     padding-right: 5vw;
     text-align: center;
     font-family: 'Roboto-Regular';
+}
+
+/* CPF */
+
+.zone-cpf-container {
+    font-family: Open Sans;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #eb4d69;
+}
+
+.cpf-container {
+    overflow-x: hidden;
+    border-radius: 1em 1em 6em 6em;
+}
+
+.cpf-container a {
+    font-size: 0.8125rem;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.zone-cpf {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.zone-cpf h1 {
+
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+.cpf-container p:nth-child(1) {
+    background-color: #156ea9;
+}
+
+.cpf-container p:nth-child(2) {
+    background-color: #74b1db;
+}
+
+.cpf-container p:nth-child(3) {
+    background-color: #156ea9;
+}
+
+.cpf-container p:nth-child(4) {
+    background-color: #74b1db;
+    text-align: justify;
 }

@@ -8,20 +8,11 @@
 }
 
 html {
-
     scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Poppins';
-
-
-
-}
-
-h1 {
-    font-family: "Mulish", sans-serif;
-    font-weight: 400;
 }
 
 header {
@@ -45,11 +36,29 @@ header {
 
 }
 
+
+
 .navbar a {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
     font-weight: bold;
     color: rgb(0, 0, 0);
+}
+
+.navbar :after {
+    content: '';
+    display: block;
+    position: relative;
+    bottom: 1px;
+    width: 0%;
+    left: 0px;
+    height: 2px;
+    transition: 0.25s cubic-bezier(0.72, -0.01, 0.19, 0.92);
+    background: black;
+}
+
+.navbar a:hover:after {
+    width: 100%;
 }
 
 .navbar .logo {
@@ -68,6 +77,10 @@ header {
     margin: 0 15px;
 }
 
+.menu ul {
+    display: none;
+}
+
 @media screen and (max-width:1024px) {
     .nav-links {
         display: none;
@@ -76,7 +89,7 @@ header {
 
 h1 {
     font-size: 51px;
-    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
 }
 
@@ -145,6 +158,10 @@ h2 {
     background-color: #74b1db;
 }
 
+.formation-container p:hover {
+    background-color: #156ea9;
+}
+
 .formation-container1 p {
     display: flex;
     justify-content: center;
@@ -152,6 +169,10 @@ h2 {
     margin: 0;
     padding: 1.5rem;
     background-color: #74b1db;
+}
+
+.formation-container1 p:hover {
+    background-color: #156ea9;
 }
 
 .formation-container2 p {
@@ -163,14 +184,26 @@ h2 {
     background-color: #74b1db;
 }
 
+.formation-container2 p:hover {
+    background-color: #156ea9;
+}
+
+
 .formation-container p:nth-child(-n + 2) {
     border-bottom: 3px solid #ffffff;
+}
+
+.formation-container p:nth-child(-n + 2):hover {
+    background-color: #3f87b6;
 }
 
 .formation-container p:last-child {
     background-color: #156ea9;
 }
 
+.formation-container p:last-child:hover {
+    background-color: #3f87b6;
+}
 
 .formation-container1 p:nth-child(-n + 3) {
     border-bottom: 3px solid #ffffff;
@@ -180,8 +213,16 @@ h2 {
     background-color: #156ea9;
 }
 
+.formation-container1 p:last-child:hover {
+    background-color: #3f87b6;
+}
+
 .formation-container1 p:nth-child(4) {
     background-color: #156ea9;
+}
+
+.formation-container1 p:nth-child(4):hover {
+    background-color: #3f87b6;
 }
 
 .formation-container1 p:nth-child(4) {
@@ -194,6 +235,10 @@ h2 {
 
 .formation-container2 p:last-child {
     background-color: #156ea9;
+}
+
+.formation-container2 p:last-child:hover {
+    background-color: #3f87b6;
 }
 
 .formation-container a {
@@ -282,32 +327,31 @@ h2 {
     background-color: #eb4d69;
 }
 
-.cpf-container {
-    overflow-x: hidden;
-    border-radius: 1em 1em 6em 6em;
-}
-
-.cpf-container a {
-    font-size: 0.8125rem;
-    color: inherit;
-    text-decoration: inherit;
-}
 
 .zone-cpf {
     width: 100%;
     max-width: 250px;
     margin: 0 auto;
     text-align: center;
+
 }
 
-.zone-cpf h1 {
-
+.zone-cpf h2 {
+    margin-bottom: 20px;
     text-transform: uppercase;
-    color: #ffffff;
-
 }
 
-.cpf-container p:nth-child(1) {
+.cpf-container {
+    overflow-x: hidden;
+    border-radius: 1em 1em 6em 6em;
+}
+
+.cpf-container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1.5rem;
     background-color: #156ea9;
 }
 
@@ -315,11 +359,12 @@ h2 {
     background-color: #74b1db;
 }
 
-.cpf-container p:nth-child(3) {
-    background-color: #156ea9;
-}
-
 .cpf-container p:nth-child(4) {
     background-color: #74b1db;
-    text-align: justify;
+}
+
+.cpf-container a {
+    font-size: 0.8125rem;
+    color: inherit;
+    text-decoration: inherit;
 }

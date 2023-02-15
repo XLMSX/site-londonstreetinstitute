@@ -18,7 +18,7 @@ body {
 header {
     height: 100vh;
     width: 100vw;
-    background-image: url(/img/London.jpeg);
+    background-image: url("../img/London.jpeg");
     background-size: cover;
     background-position: center center;
 }

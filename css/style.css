@@ -45,7 +45,7 @@ header {
     color: rgb(0, 0, 0);
 }
 
-.navbar :after {
+.navbar .nav-links :after {
     content: '';
     display: block;
     position: relative;

@@ -349,7 +349,7 @@ h2 {
 .cpf-container p {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     margin: 0;
     padding: 1.5rem;
     background-color: #156ea9;
@@ -367,4 +367,39 @@ h2 {
     font-size: 0.8125rem;
     color: inherit;
     text-decoration: inherit;
+}
+
+.cpf-container .ref {
+    font-size: 15px;
+}
+
+.cpf-container .prix {
+    font-size: 52px;
+}
+
+.cpf-container .sub {
+    font-size: 42px;
+}
+
+.cpf-container .info {
+    font-size: 11px;
+}
+
+/* formateur */
+
+.formateur .section-title {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    font-size: 40px;
+}
+
+.formateur-grid {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.formateur .img {
+    border-radius: 50%;
 }
